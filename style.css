@@ -56,28 +56,28 @@ button {
 }
 
 .Binary {
-  background: #66ccff;
+  background: #fcd4af;
 }
 
 .Octal {
-  background: #ffb3e6;
+  background: #BDDDE4;
 }
 
 .Decimal {
-  background: #b3c9ff;
+  background: #BEE4D0;
 }
 
 .Hex {
-  background: #aaffaa;
+  background: #F7CFD8;
 }
 
 .convert-button{
-  background-color: #b66dc0;
+  background-color: #ef93fc;
   color:#000000
 }
 
 .convert-button:hover{
-  background: #b66dc0;
+  background: #ef93fc;
   font-size: 18px;
   transition: background 0.3s ease, transform 0.3s ease;
   box-shadow: 0 0 10px;
