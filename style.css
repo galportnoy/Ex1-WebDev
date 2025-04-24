@@ -4,6 +4,7 @@ body {
     background-color:rgb(244, 239, 241);
     color: #522258;  
     text-align: center;
+    justify-items: center;
 }
 
 .btn > div{
@@ -32,4 +33,9 @@ button{
     background-image: -o-linear-gradient(top, #007074, #006A71);
     background-image: linear-gradient(to bottom, #007074, #006A71);
     text-decoration: none;
+  }
+
+  .chosen{
+    color: #f31b1b;
+    background: #23d7e7;
   }
