@@ -11,7 +11,7 @@ const fromButtons = document.querySelectorAll(".from-button");
 const toButtons = document.querySelectorAll(".to-button");
 
 let fromBase = 10; // defualt base
-let toBase = 10; // defualt base
+let toBase = 2; // defualt base
 
 // base from top buttons
 fromButtons.forEach(button => {
@@ -31,12 +31,13 @@ toButtons.forEach(button => {
     });
 });
 
+// convert the number
 convertBtn.addEventListener('click', function () {
     const inputVal = numberToConvert.value;
     if (!isValid(inputVal, fromBase)) {
         alert("Invalid input for selected base!");
         numberToConvert.value = "";
-        resultText.innerHTML = "";
+        resultText.innerHTML = "Result: ";
         return;
     }
 
@@ -59,5 +60,5 @@ function isValid(input, base) {
 }
 
 function convertNumber(input, from, to) {
-    
+    return parseInt(input, from).toString(toBase).toUpperCase();
 }
