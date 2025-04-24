@@ -6,16 +6,16 @@
     <title>Base Convertor</title>
     <link rel="stylesheet" href="./style.css">
 </head>
-<body>
+<body> 
     <h1>Base Convertor</h1>
     <h6>Convert numbers between different bases (Binary, Decimal, Hex, Octal).</h6>
     <section class="btn">
         <div>
             <h5>FROM</h5>
-            <button class="Binary">Binary (2)</button>
-            <button class="Octal">Octal (8)</button>
-            <button class="Decimal">Decimal (10)</button>
-            <button class="Hex">Hexadecimal (16)</button>
+            <button class="Binary from-button" data-base="2">Binary (2)</button>
+            <button class="Octal from-button" data-base="8">Octal (8)</button>
+            <button class="Decimal from-button" data-base="10">Decimal (10)</button>
+            <button class="Hex from-button" data-base="16">Hexadecimal (16)</button>
         </div>
     </section>
 
@@ -27,18 +27,19 @@
     <section class="btn">
         <div>
             <h5>TO</h5>
-            <button class="Binary">Binary (2)</button>
-            <button class="Octal">Octal (8)</button>
-            <button class="Decimal">Decimal (10)</button>
-            <button class="Hex">Hexadecimal (16)</button>
+            <button class="Binary to-button" data-base="2">Binary (2)</button>
+            <button class="Octal to-button" data-base="8">Octal (8)</button>
+            <button class="Decimal to-button" data-base="10">Decimal (10)</button>
+            <button class="Hex to-button" data-base="16">Hexadecimal (16)</button>
         </div>
     </section>
 
     <section>
         <label for="result">result: </label>
+        <p id="Result-text"></p>
 
     </section>
-    <button id="covert">Convert</button>
+    <button id="covert-btn">Convert</button>
 
     
 </body>
