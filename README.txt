@@ -1,3 +1,4 @@
+This project is a base convertor to Binary, Decimal, Octal and Hexadecimal.
 Students:
 Jonas Elkayam 209951532
 Gal Portnoy 208450841
